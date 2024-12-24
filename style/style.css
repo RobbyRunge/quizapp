@@ -9,10 +9,9 @@ body {
 }
 
 .container {
-  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 24px;
   background-color: rgb(254, 250, 239) !important;
 }
 
@@ -38,4 +37,17 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.replay {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+}
+
+.progress {
+  background-color: #27355b !important;
+  border-radius: 0px !important;
 }
